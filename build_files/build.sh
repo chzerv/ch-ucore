@@ -15,3 +15,6 @@ dnf5 install -y gstreamer1-plugin-libav \
   gstreamer1-vaapi
 
 dnf5 swap -y ffmpeg-free ffmpeg --allowerasing
+
+# Install additional utilities
+dnf5 install -y qemu-guest-agent btop nvtop
