@@ -17,4 +17,4 @@ dnf5 install -y gstreamer1-plugin-libav \
 dnf5 swap -y ffmpeg-free ffmpeg --allowerasing
 
 # Install additional utilities
-dnf5 install -y qemu-guest-agent btop nvtop
+dnf5 install -y qemu-guest-agent btop nvtop cloud-utils-growpart ncdu
